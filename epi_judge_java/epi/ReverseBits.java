@@ -5,15 +5,11 @@ public class ReverseBits {
 	
 	private static long[] precomputedReverseBits = new long[1<<16];
 	
-	private static long precomputedReverseBits(long x) {
-		long reversed = 0;
-		for(int i=0,j=15;i<j;i++,j--) {
-			long lsb = (x>>i)&1;
-			long msb = (x>>j)&1;
-			reversed|=(lsb<<j);
-			reversed|=(msb<<i);
-		}
-		return reversed;
+	private static long precomputedReverseBits(long x) {		
+		for(int i=0,j=15;i<j;i++,j--)
+			x = SwapBits.swapBits(x, i, j);
+		
+		return x;
 	}
 	
 	static {

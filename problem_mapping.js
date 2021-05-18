@@ -34,7 +34,7 @@ problem_mapping = {
                 "total": 10001
             },
             "Java: SwapBits.java": {
-                "passed": 0,
+                "passed": 10001,
                 "total": 10001
             },
             "Python: swap_bits.py": {
@@ -160,7 +160,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Java: RectangleIntersection.java": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Python: rectangle_intersection.py": {
@@ -176,7 +176,7 @@ problem_mapping = {
                 "total": 1001
             },
             "Java: EvenOddArray.java": {
-                "passed": 0,
+                "passed": 1001,
                 "total": 1001
             },
             "Python: even_odd_array.py": {
@@ -246,7 +246,7 @@ problem_mapping = {
                 "total": 2003
             },
             "Java: SortedArrayRemoveDups.java": {
-                "passed": 0,
+                "passed": 2003,
                 "total": 2003
             },
             "Python: sorted_array_remove_dups.py": {
@@ -302,7 +302,7 @@ problem_mapping = {
                 "total": 24
             },
             "Java: PrimeSieve.java": {
-                "passed": 0,
+                "passed": 24,
                 "total": 24
             },
             "Python: prime_sieve.py": {
@@ -792,7 +792,7 @@ problem_mapping = {
                 "total": 203
             },
             "Java: RemoveDuplicatesFromSortedList.java": {
-                "passed": 0,
+                "passed": 203,
                 "total": 203
             },
             "Python: remove_duplicates_from_sorted_list.py": {
